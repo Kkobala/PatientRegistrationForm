@@ -49,98 +49,110 @@
             // 
             // textBoxName
             // 
-            textBoxName.Location = new Point(136, 17);
+            textBoxName.Location = new Point(194, 28);
+            textBoxName.Margin = new Padding(4, 5, 4, 5);
             textBoxName.Name = "textBoxName";
-            textBoxName.Size = new Size(120, 23);
+            textBoxName.Size = new Size(170, 31);
             textBoxName.TabIndex = 0;
             // 
             // txtName
             // 
             txtName.AutoSize = true;
-            txtName.Location = new Point(14, 20);
+            txtName.Location = new Point(20, 33);
+            txtName.Margin = new Padding(4, 0, 4, 0);
             txtName.Name = "txtName";
-            txtName.Size = new Size(53, 15);
+            txtName.Size = new Size(82, 25);
             txtName.TabIndex = 1;
             txtName.Text = "სახელი";
             // 
             // txtLastName
             // 
             txtLastName.AutoSize = true;
-            txtLastName.Location = new Point(14, 51);
+            txtLastName.Location = new Point(20, 85);
+            txtLastName.Margin = new Padding(4, 0, 4, 0);
             txtLastName.Name = "txtLastName";
-            txtLastName.Size = new Size(42, 15);
+            txtLastName.Size = new Size(67, 25);
             txtLastName.TabIndex = 2;
             txtLastName.Text = "გვარი";
             // 
             // textBoxLastName
             // 
-            textBoxLastName.Location = new Point(136, 48);
+            textBoxLastName.Location = new Point(194, 80);
+            textBoxLastName.Margin = new Padding(4, 5, 4, 5);
             textBoxLastName.Name = "textBoxLastName";
-            textBoxLastName.Size = new Size(120, 23);
+            textBoxLastName.Size = new Size(170, 31);
             textBoxLastName.TabIndex = 3;
             // 
             // txtBirthDate
             // 
             txtBirthDate.AutoSize = true;
-            txtBirthDate.Location = new Point(12, 85);
+            txtBirthDate.Location = new Point(17, 142);
+            txtBirthDate.Margin = new Padding(4, 0, 4, 0);
             txtBirthDate.Name = "txtBirthDate";
-            txtBirthDate.Size = new Size(83, 15);
+            txtBirthDate.Size = new Size(128, 25);
             txtBirthDate.TabIndex = 4;
             txtBirthDate.Text = "დაბ თარიღი";
             // 
             // textBoxBirthDate
             // 
-            textBoxBirthDate.Location = new Point(136, 82);
+            textBoxBirthDate.Location = new Point(194, 137);
+            textBoxBirthDate.Margin = new Padding(4, 5, 4, 5);
             textBoxBirthDate.Name = "textBoxBirthDate";
-            textBoxBirthDate.Size = new Size(120, 23);
+            textBoxBirthDate.Size = new Size(170, 31);
             textBoxBirthDate.TabIndex = 5;
             // 
             // txtGender
             // 
             txtGender.AutoSize = true;
-            txtGender.Location = new Point(16, 121);
+            txtGender.Location = new Point(23, 202);
+            txtGender.Margin = new Padding(4, 0, 4, 0);
             txtGender.Name = "txtGender";
-            txtGender.Size = new Size(40, 15);
+            txtGender.Size = new Size(63, 25);
             txtGender.TabIndex = 6;
             txtGender.Text = "სქესი";
             // 
             // txtPhoneNumber
             // 
             txtPhoneNumber.AutoSize = true;
-            txtPhoneNumber.Location = new Point(12, 162);
+            txtPhoneNumber.Location = new Point(17, 270);
+            txtPhoneNumber.Margin = new Padding(4, 0, 4, 0);
             txtPhoneNumber.Name = "txtPhoneNumber";
-            txtPhoneNumber.Size = new Size(78, 15);
+            txtPhoneNumber.Size = new Size(121, 25);
             txtPhoneNumber.TabIndex = 8;
             txtPhoneNumber.Text = "მობ ნომერი";
             // 
             // textBoxPhoneNumber
             // 
-            textBoxPhoneNumber.Location = new Point(135, 154);
+            textBoxPhoneNumber.Location = new Point(193, 257);
+            textBoxPhoneNumber.Margin = new Padding(4, 5, 4, 5);
             textBoxPhoneNumber.Name = "textBoxPhoneNumber";
-            textBoxPhoneNumber.Size = new Size(121, 23);
+            textBoxPhoneNumber.Size = new Size(171, 31);
             textBoxPhoneNumber.TabIndex = 9;
             // 
             // txtAddres
             // 
             txtAddres.AutoSize = true;
-            txtAddres.Location = new Point(14, 193);
+            txtAddres.Location = new Point(20, 322);
+            txtAddres.Margin = new Padding(4, 0, 4, 0);
             txtAddres.Name = "txtAddres";
-            txtAddres.Size = new Size(74, 15);
+            txtAddres.Size = new Size(112, 25);
             txtAddres.TabIndex = 10;
             txtAddres.Text = "მისამართი";
             // 
             // textBoxAddress
             // 
-            textBoxAddress.Location = new Point(135, 191);
+            textBoxAddress.Location = new Point(193, 318);
+            textBoxAddress.Margin = new Padding(4, 5, 4, 5);
             textBoxAddress.Name = "textBoxAddress";
-            textBoxAddress.Size = new Size(121, 23);
+            textBoxAddress.Size = new Size(171, 31);
             textBoxAddress.TabIndex = 11;
             // 
             // btnAdd
             // 
-            btnAdd.Location = new Point(675, 381);
+            btnAdd.Location = new Point(964, 635);
+            btnAdd.Margin = new Padding(4, 5, 4, 5);
             btnAdd.Name = "btnAdd";
-            btnAdd.Size = new Size(75, 23);
+            btnAdd.Size = new Size(114, 38);
             btnAdd.TabIndex = 12;
             btnAdd.Text = "დამატება";
             btnAdd.UseVisualStyleBackColor = true;
@@ -151,49 +163,54 @@
             comboBoxGender.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             comboBoxGender.FormattingEnabled = true;
             comboBoxGender.Items.AddRange(new object[] { "მამრობითი", "მდედრობითი" });
-            comboBoxGender.Location = new Point(135, 118);
+            comboBoxGender.Location = new Point(193, 197);
+            comboBoxGender.Margin = new Padding(4, 5, 4, 5);
             comboBoxGender.Name = "comboBoxGender";
-            comboBoxGender.Size = new Size(121, 23);
+            comboBoxGender.Size = new Size(171, 33);
             comboBoxGender.TabIndex = 13;
             comboBoxGender.Text = "-აირჩიეთ-";
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(18, 228);
+            label1.Location = new Point(26, 380);
+            label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(101, 15);
+            label1.Size = new Size(157, 25);
             label1.TabIndex = 14;
             label1.Text = "პირადი ნომერი";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(20, 264);
+            label2.Location = new Point(29, 440);
+            label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
-            label2.Size = new Size(36, 15);
+            label2.Size = new Size(54, 25);
             label2.TabIndex = 15;
             label2.Text = "Email";
             // 
             // textBoxPersonalNumber
             // 
-            textBoxPersonalNumber.Location = new Point(136, 225);
+            textBoxPersonalNumber.Location = new Point(194, 375);
+            textBoxPersonalNumber.Margin = new Padding(4, 5, 4, 5);
             textBoxPersonalNumber.Name = "textBoxPersonalNumber";
-            textBoxPersonalNumber.Size = new Size(120, 23);
+            textBoxPersonalNumber.Size = new Size(170, 31);
             textBoxPersonalNumber.TabIndex = 16;
             // 
             // textBoxEmail
             // 
-            textBoxEmail.Location = new Point(136, 256);
+            textBoxEmail.Location = new Point(194, 427);
+            textBoxEmail.Margin = new Padding(4, 5, 4, 5);
             textBoxEmail.Name = "textBoxEmail";
-            textBoxEmail.Size = new Size(120, 23);
+            textBoxEmail.Size = new Size(170, 31);
             textBoxEmail.TabIndex = 17;
             // 
             // AddPatientForm
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1143, 750);
             Controls.Add(textBoxEmail);
             Controls.Add(textBoxPersonalNumber);
             Controls.Add(label2);
@@ -211,6 +228,7 @@
             Controls.Add(txtLastName);
             Controls.Add(txtName);
             Controls.Add(textBoxName);
+            Margin = new Padding(4, 5, 4, 5);
             Name = "AddPatientForm";
             Text = "AddPatientForm";
             ResumeLayout(false);

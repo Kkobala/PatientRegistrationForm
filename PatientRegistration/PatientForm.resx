@@ -121,7 +121,7 @@
   <data name="btnAdd.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vQAADr0BR/uQrQAABKtJREFUWEfVl/tPk2cUx+tmXDJx/8iSliHRxCyOGOeccWYBBYQAjotMyqXIHQuW
+        vAAADrwBlbxySQAABKtJREFUWEfVl/tPk2cUx+tmXDJx/8iSliHRxCyOGOeccWYBBYQAjotMyqXIHQuW
         lksptJQWy0UUCYNJRjTZZmKyZBt9771QMm4OGSwZm78s4U/47jwvLxObbuqSt8lOckLCe5rv9/M855y3
         NbxOGJ3vFFHuUCJBsv8XaaX6hLH/yM7jP+/j0R/T+Pr3STzYvoO57THc/y2A6WeDYM+1Un3COPo2vtme
         wsOfpjC3OIHZ2DhmYiOYWhjCvS032HOtVJ9gAg82J/BV7C6+XBjDFwsBTEZ9uBv14Pa6MzkGZjdGMRMl
@@ -147,7 +147,7 @@
   <data name="btnEdit.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vQAADr0BR/uQrQAAB5VJREFUWEfVl3tQVNcdx7Gxbdq8INFoQDAKoiK6PESMLChGgspDRCMIYzVpEIWq
+        vAAADrwBlbxySQAAB5VJREFUWEfVl3tQVNcdx7Gxbdq8INFoQDAKoiK6PESMLChGgspDRCMIYzVpEIWq
         bdVEpSQxBqs1YTCmY6IhmcR0jBolgIAvBJ+ooKDLGxEBRXksu8DyZvfb3+9wl10UMnaaf/Kd+c5lufee
         7+f87jnnnmvyq9VwCxvTUTYOU6wny33sps1d5eix6GNX72XfyP1WniDnyv1XVtNRRc6e4ua/RLrtyTXM
         fOwzFGBvM8Xd3366z7qps4Pj3HzfSaQG8+R+4Wp3/3D8nD0WrBKWfmstbRxspKYHFvXoeQf3hesp4DT5
@@ -185,7 +185,7 @@
   <data name="btnDelete.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vQAADr0BR/uQrQAABRdJREFUWEftlntQlGUUxt+1wYjVwCCVizLrZUQDlxwFB28oSCAkICoFaFp4z0rH
+        vAAADrwBlbxySQAABRdJREFUWEftlntQlGUUxt+1wYjVwCCVizLrZUQDlxwFB28oSCAkICoFaFp4z0rH
         SUZBBG/grRBSzEyTLCVFx5lmZMZs3YBKyIEC3S1EVryVTuUY/vv0nO1bhTFk0X85M8/M+51znt95F979
         3lXd0R2Pi+M9e+pPG43l306ebDnp4WHQ0p1Gmaur4UxoqOVMWFh5mYeHXkt3LUqV0h9TylQeNBxVs6aD
         62bmOt2E9EiveVoEzoaPE59JWFrZufiShqM0lrm54NbG93GvZC++9vMCc82sdbgJqUmP9N7b+wFu7doI
@@ -210,6 +210,15 @@
         SEpjtt8AAAAASUVORK5CYII=
 </value>
   </data>
+  <metadata name="PersonalNumber.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="EMail.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="patientEntityBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
   <metadata name="PersonalNumber.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>

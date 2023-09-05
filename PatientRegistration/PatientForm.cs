@@ -27,6 +27,13 @@ namespace PatientRegistration
             dataGridView1.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
         }
 
+        private void PatientForm_Load(object sender, EventArgs e)
+        {
+            BindingList<PatientEntity> patientBindingList = new BindingList<PatientEntity>(_repository.GetAllPatients());
+
+            dataGridView1.DataSource = patientBindingList;
+        }
+
         private void btnAdd_Click(object sender, EventArgs e)
         {
             AddPatientForm addPatientForm = new AddPatientForm(_repository!);
@@ -63,29 +70,46 @@ namespace PatientRegistration
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
+            bool anyRowsToDelete = false;
+
             foreach (DataGridViewRow row in dataGridView1.Rows)
             {
                 bool isChecked = Convert.ToBoolean(row.Cells["MarkPatient"].Value);
 
                 if (isChecked)
                 {
-                    int patientId = Convert.ToInt32(row.Cells[0].Value);
+                    anyRowsToDelete = true;
+                    break;
+                }
+            }
 
-                    bool removedSuccessfully = _repository.RemovePatient(patientId);
+            if (!anyRowsToDelete)
+            {
+                MessageBox.Show("No patients selected for deletion.");
+                return;
+            }
 
-                    if (removedSuccessfully)
+            DialogResult result = MessageBox.Show("Do you want to delete the marked entry?", "Confirmation", MessageBoxButtons.YesNo);
+
+            if (result == DialogResult.Yes)
+            {
+                foreach (DataGridViewRow row in dataGridView1.Rows)
+                {
+                    bool isChecked = Convert.ToBoolean(row.Cells["MarkPatient"].Value);
+
+                    if (isChecked)
                     {
-                        dataGridView1.Rows.RemoveAt(row.Index);
+                        int patientId = Convert.ToInt32(row.Cells[0].Value);
+
+                        bool removedSuccessfully = _repository.RemovePatient(patientId);
+
+                        if (removedSuccessfully)
+                        {
+                            dataGridView1.Rows.RemoveAt(row.Index);
+                        }
                     }
                 }
             }
-        }
-
-        private void PatientForm_Load(object sender, EventArgs e)
-        {
-            BindingList<PatientEntity> patientBindingList = new BindingList<PatientEntity>(_repository.GetAllPatients());
-
-            dataGridView1.DataSource = patientBindingList;
         }
     }
 }
